@@ -1,5 +1,5 @@
 {
-	"name": "react-template-library",
+	"name": "@Aayush4580/react-template-library",
 	"version": "1.0.0",
 	"description": "A simple template for a custom React component library",
 	"scripts": {
@@ -26,5 +26,8 @@
 	"types": "dist/index.d.ts",
 	"dependencies": {
 		"tslib": "^2.3.1"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/Aayush4580"
 	}
 }
