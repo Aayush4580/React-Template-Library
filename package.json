@@ -1,6 +1,6 @@
 {
 	"name": "@Aayush4580/react-template-library",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"description": "A simple template for a custom React component library",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,7 @@
 		"react": "^17.0.2",
 		"rollup": "^2.70.1",
 		"rollup-plugin-dts": "^4.2.0",
+		"rollup-plugin-postcss": "^4.0.2",
 		"typescript": "^4.6.2"
 	},
 	"main": "dist/cjs/index.js",
@@ -25,6 +26,7 @@
 	],
 	"types": "dist/index.d.ts",
 	"dependencies": {
+		"postcss": "^8.4.12",
 		"tslib": "^2.3.1"
 	},
 	"publishConfig": {
